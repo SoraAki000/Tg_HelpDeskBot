@@ -1,0 +1,11 @@
+[2024-07-27 13:54:20,267] - dispatcher.py:527 #INFO - aiogram.dispatcher - Start polling
+[2024-07-27 13:54:20,267] - dispatcher.py:341 #INFO - aiogram.dispatcher - Run polling for bot @LP33_Aki_bot id=7019666965 - 'AkiTestBot'
+[2024-07-27 13:54:43,351] - base.py:1099 #INFO - sqlalchemy.engine.Engine - BEGIN (implicit)
+[2024-07-27 13:54:43,356] - base.py:1899 #INFO - sqlalchemy.engine.Engine - SELECT blocked_users.user_uid AS blocked_users_user_uid, blocked_users.username AS blocked_users_username, blocked_users.id AS blocked_users_id 
+FROM blocked_users 
+WHERE blocked_users.user_uid = ?
+[2024-07-27 13:54:43,356] - base.py:1904 #INFO - sqlalchemy.engine.Engine - [generated in 0.00032s] (886395338,)
+[2024-07-27 13:54:43,357] - base.py:1125 #INFO - sqlalchemy.engine.Engine - ROLLBACK
+[2024-07-27 13:54:43,662] - dispatcher.py:172 #INFO - aiogram.event - Update id=406429822 is handled. Duration 328 ms by bot id=7019666965
+[2024-07-27 16:41:11,279] - dispatcher.py:359 #INFO - aiogram.dispatcher - Polling stopped for bot @LP33_Aki_bot id=7019666965 - 'AkiTestBot'
+[2024-07-27 16:41:11,280] - dispatcher.py:554 #INFO - aiogram.dispatcher - Polling stopped
